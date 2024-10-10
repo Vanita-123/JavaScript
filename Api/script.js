@@ -23,6 +23,6 @@ function createCards(data) {
     let p = document.createElement("p");
     p.textContent = user.address.street + " , "  + user.address.city;
     div.append(h2, h3, p);
-    Card.append(div);
+    Card.append(div); 
   });
 }
